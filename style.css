@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.navUl {
+    padding-right: 10px;
+}
+
+li {
+    padding-right: 20px;;
+}
+
+li a {
+    text-decoration: none;
+    color: rgb(0 0 0 / 87%);
+    font-family: arial,sans-serif;
+    font-size: 13px;
+}
+
+.headerLink{
+    position: relative;
+    top: 6px;
+}
+
+li img {
+    position: relative;
+    top:3px;
+
+    max-width: 25px;
+    max-height: 25px;
+}
+
+li button {
+    background-color: #4285f4;
+    color:white;
+    height: 30px;
+    width: 70px;
+    border-radius: 3px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+
+.content {
+    flex: 1;
+}
+.content div {
+    display: flex;
+    justify-content: center;
+}
+
+.logoBar img {
+    width: 272px;
+    padding-top: 134px;
+}
+
+.inputBar {
+    padding-top: 30px;
+    width: 100%;
+    flex-direction: column;
+}
+
+#inputField {
+    border: solid 1px #ccc;
+    border-radius: 80px;
+    width: 570px;
+    justify-content: flex-start;
+}
+
+
+.searchBar div {
+    height: 44px;
+}
+
+#searchButton {
+    position: relative;
+    top: 12px;
+    left: 10px;
+    height: 20px;
+}
+#voiceButtonDiv {
+    flex-direction: row-reverse;
+    width: 10%;
+}
+
+#voiceButton {
+    position: relative;
+    height:20px;
+    top: 10px;
+}
+
+#searchInput {
+    position: relative;
+    width: 90%;
+    left: 10px;
+}
+
+.buttonBar {
+    padding-top: 30px
+}
+
+.buttonBar button {
+    width: 140px;
+    height: 36px;
+    margin: 0px 10px;
+    padding: 10px;
+    color: #3c4043;
+    background-color: #f8f9fa;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+}
+
+footer {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    height: 80px;
+    width: 100%;
+    flex-shrink: 0;
+    bottom: 0px;
+}
+
+
+.footerDiv{
+    display: inline-flex;
+    flex-direction: row;
+    background-color: #f2f2f2;
+    height: 50%;
+    border-top: solid 1px #dadce0;
+}
+
+.footerDiv ul {
+    width: 50%;
+}
+
+.footerDiv a{
+    position: relative;
+    top: 10px;
+    font-size: 15px;
+    font-family: arial,sans-serif;
+    padding-left: 20px;
+    color: rgba(0,0,0,.54);
+}
+
+.footerDiv p{
+    position: relative;
+    top: 10px;
+    font-size: 15px;
+    font-family: arial,sans-serif;
+    padding-left: 20px;
+    color: rgba(0,0,0,.54);
+}
+
+.privacyUl {
+    flex-direction: row-reverse;
+}
